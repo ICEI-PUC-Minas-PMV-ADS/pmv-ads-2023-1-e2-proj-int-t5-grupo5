@@ -1,56 +1,59 @@
-# TÍTULO DO PROJETO
+# ÁGILFORNEC
 
 `CURSO`
+Analise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`
+Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio
 
 `SEMESTRE`
+2º Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Criação de uma aplicação com a premissa da gestão e operação do sistema de controle de estoque, permitindo o registro, o gerenciamento e a emissão de relatórios diretamente na aplicação.
 
 ## Integrantes
+* ANDRÉ AZEVEDO FERREIRA CARVALHO
+* MARLON STTEFANE GUIMARÃES SILVA
+* RANIEL ADRIANO DE SOUZA ARAÚJO
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+## Orientador:
+* Bernardo Jeunon de Alencar
 
-## Orientador
-
-* Nome completo do professor 1
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+## INTRODUÇÃO
+ Atualmente, a necessidade de uma solução rápida nas empresas está cada dia mais
+vários, e isso se dá pela quantidade de concorrentes e demandas existentes com
+prazos apertados. Mas com a tecnologia, é possível criar sistemas que gerenciam
+informações e processos de negócio de forma mais ágil, fazendo com que haja um
+aumento na velocidade da conclusão dos atendimentos e serviços. A Agil Fornec
+está sendo criado com o intuito de ser uma plataforma prática para as empresas que
+precisam gerenciar seus negócios de forma mais fácil e objetiva, para atender esse
+objetivo será feito uma gestão de informações e dados, um gerenciamento de
+estoque e várias outras funcionalidades que contribuirão para a eficácia da
+plataforma, e além disso, deverá melhorar a satisfação dos clientes e, por
+consequência, aumentar a rentabilidade do negócio.
+O AgilFornec apresentará tecnologias modernas como ASP.NET e banco de dados
+como o MYSQL, promovendo um ambiente seguro, confiável, moderno e eficiente.
 
 # Documentação
-
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
 <li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
 <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
-<li><a href="docs/06-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
+<li><a href="docs/06-Template Padrão da Aplicação.md"> Modelo Padrão da Aplicação</a></li>
 <li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
 <li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
-<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
-<li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
 # Código
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
-# Apresentação
+# Apresentação!
 
+
+[![Video de apresentaöäao](https://user-images.githubusercontent.com/63263361/230792262-a9975968-249b-41d6-86c0-50e04c71dcfe.jpg)](https://youtu.be/ZZ96PVH40Ic)
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
