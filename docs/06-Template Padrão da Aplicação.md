@@ -4,5 +4,5 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-![Template](pmv-ads-2023-1-e2-proj-int-t5-grupo5/docs/img/Templatepadrao.png)
+![Template](img/Templatepadrao.png)
 
