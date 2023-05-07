@@ -4,5 +4,8 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+### Template padrão:
 ![Template](img/Templatepadrao.png)
 
+### A aplicação apresenta comportamento responsivo, se adaptando a tamanhos diferentes de telas/dispositivos:
+![Template](img/TemplatePadraoResponsivo.png)
