@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
   <link href="css/style.css" rel="stylesheet" />
-  <script src="script.js"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-</head>
-<body>
   
   <div class="app-container">
     <div class="sidebar">
@@ -50,7 +45,7 @@
             <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
           </svg>
         </button>
-        <button class="app-content-headerButton">Add Product</button>
+        <button class="app-content-headerButton" @onclick="ToggleTheme">Add Product</button>
       </div>
       <div class="app-content-actions">
         <input class="search-bar" placeholder="Search..." type="text">
@@ -278,5 +273,16 @@
       </div>
     </div>
   </div>
-</body>
-</html>
+
+@inject IJSRuntime JSRuntime
+
+@code {
+    private bool _darkTheme;
+
+    private async Task ToggleTheme()
+    {
+        _darkTheme = !_darkTheme;
+        var themeClass = _darkTheme ? "dark-theme" : "light-theme";
+        await JSRuntime.InvokeVoidAsync("themeSwitcher.toggleTheme", themeClass);
+    }
+}
